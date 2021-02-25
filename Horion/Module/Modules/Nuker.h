@@ -26,7 +26,7 @@ public:
 	inline bool isVeinMiner() { return veinMiner; };
 	// Inherited via IModule
 	virtual const char* getModuleName() override;
-	void findTool(int* PicSlot, *bool NoPicInHand);
+	void findToolNuker(int* PicSlot, bool* NoPicInHand);
 	virtual void onTick(C_GameMode* gm) override;
 	
 	void isItInBoard(int x,int y,int z) {

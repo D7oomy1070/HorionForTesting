@@ -19,7 +19,7 @@ const char* Nuker::getModuleName() {
 }
 
 
-	void Nuker::findTool(int* PicSlot,bool* NoPicInHand) {
+	void Nuker::findToolNuker(int* PicSlot,bool* NoPicInHand) {
 	C_PlayerInventoryProxy* supplies = g_Data.getLocalPlayer()->getSupplies();
 	C_Inventory* inv = supplies->inventory;
 /////////////////////////////// If you already got a pic in hand, skip findtool() and return true ///////////
@@ -54,9 +54,8 @@ void Nuker::onTick(C_GameMode* gm) {
 	if (!autodestroy) return;
 	// if autotool is checked go and find a tool and set StartMining to true if there is any else set it to false
 	if (autotool) {
-		 findTool(&PicSlot,&NoPicInHand); 
+		findToolNuker(&PicSlot, &NoPicInHand);
 	}
-	
 
 	vec3_ti tempPos = *gm->player->getPos();
 	for (int x = -nukerRadius; x < nukerRadius; x++) {
@@ -80,7 +79,8 @@ void Nuker::onTick(C_GameMode* gm) {
 						C_Inventory* inv = supplies->inventory;
 						if (MyMines) {
 							if (inMyMines) {
-								if (NoPicInHand) supplies->selectedHotbarSlot = PicSlot;
+								if (NoPicInHand)
+									supplies->selectedHotbarSlot = PicSlot;
 								else if (!NoPicInHand) {
 									gm->destroyBlock(&tempPos, 1);
 								}
@@ -90,24 +90,20 @@ void Nuker::onTick(C_GameMode* gm) {
 								supplies->selectedHotbarSlot = PicSlot;
 							else if (!NoPicInHand) {
 								gm->destroyBlock(&tempPos, 1);
+							}
 						}
-					}
-					/// <summary>
-					/// With AutoTool Off
-					/// </summary>
-					/// <param name="gm"></param>
-					if (MyMines) {
-						if (inMyMines) {
+						/// <summary>
+						/// With AutoTool Off
+						/// </summary>
+						/// <param name="gm"></param>
+						if (MyMines) {
+							if (inMyMines) {
+								gm->destroyBlock(&tempPos, 1);
+							}
+						} else {
 							gm->destroyBlock(&tempPos, 1);
 						}
-					} else {
-						gm->destroyBlock(&tempPos, 1);
 					}
-					
-					
-	
-					
-
 				}
 			}
 		}
