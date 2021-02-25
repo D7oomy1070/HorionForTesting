@@ -36,7 +36,7 @@ const char* Nuker::getModuleName() {
 
 	/////////////////////////////// If you dont hold a pic in hand check ur slots and if theres any select it and return true else return false ///////////
 
-	for (int n = 0; n < 9; n++) {
+	for (int n = 0; n < 36; n++) {
 		C_ItemStack* stack = inv->getItemStack(n);
 		if (stack->item != nullptr) {
 			if ((*stack->item)->isMiningTool()) {
@@ -75,18 +75,35 @@ void Nuker::onTick(C_GameMode* gm) {
 				bool inMyMines = inDoomyWall || inMezoWall || Server2One;
 
 				if (tempPos.y > 0 && gm->player->region->getBlock(tempPos)->toLegacy()->material->isSolid) {
+					if (autotool) {
+						C_PlayerInventoryProxy* supplies = g_Data.getLocalPlayer()->getSupplies();
+						C_Inventory* inv = supplies->inventory;
+						if (MyMines) {
+							if (inMyMines) {
+								if (NoPicInHand) supplies->selectedHotbarSlot = PicSlot;
+								else if (!NoPicInHand) {
+									gm->destroyBlock(&tempPos, 1);
+								}
+							}
+						} else {
+							if (NoPicInHand)
+								supplies->selectedHotbarSlot = PicSlot;
+							else if (!NoPicInHand) {
+								gm->destroyBlock(&tempPos, 1);
+						}
+					}
+					/// <summary>
+					/// With AutoTool Off
+					/// </summary>
+					/// <param name="gm"></param>
 					if (MyMines) {
 						if (inMyMines) {
-							C_PlayerInventoryProxy* supplies = g_Data.getLocalPlayer()->getSupplies();
-							C_Inventory* inv = supplies->inventory;
-
-							if (PicSlot == 9)
-							if (PicSlot != 9)gm->destroyBlock(&tempPos, 1);
+							gm->destroyBlock(&tempPos, 1);
 						}
 					} else {
 						gm->destroyBlock(&tempPos, 1);
-
 					}
+					
 					
 	
 					
