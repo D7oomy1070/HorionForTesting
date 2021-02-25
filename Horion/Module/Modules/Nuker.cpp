@@ -32,9 +32,10 @@ const char* Nuker::getModuleName() {
 				C_ItemStack* stack = inv->getItemStack(n);
 				if (stack->item != nullptr) {
 					if ((*stack->item)->isMiningTool()) {
-						*PicSlot = n;
 						supplies->selectedHotbarSlot = n;
-						NoPicInHand = false;
+						*NoPicInHand = false;
+					} else {
+						*NoPicInHand = true;
 					}
 				}
 			}
