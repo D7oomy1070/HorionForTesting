@@ -78,9 +78,11 @@ void Nuker::onTick(C_GameMode* gm) {
 						if (inMyMines) {
 							gm->destroyBlock(&tempPos, 1);
 						}
+					} else {
+						gm->destroyBlock(&tempPos, 1);
+
 					}
 					
-							gm->destroyBlock(&tempPos, 1);
 	
 					
 
