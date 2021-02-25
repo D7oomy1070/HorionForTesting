@@ -8,8 +8,7 @@ private:
 	bool veinMiner = false;
 	bool autodestroy = true;
 	bool autotool = true;
-	bool DoomyMine = false;
-	bool MezoMine = false;
+	bool MyMines = false;
 	bool findTool();
 	//void findTool();
 	int Ticks{0};

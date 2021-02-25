@@ -5,8 +5,7 @@ Nuker::Nuker() : IModule(VK_NUMPAD5, Category::WORLD, "Break multiple blocks at 
 	this->registerBoolSetting("veinminer", &this->veinMiner, this->veinMiner);
 	this->registerBoolSetting("autotool", &this->autotool, this->autotool);
 	this->registerBoolSetting("auto destroy", &this->autodestroy, this->autodestroy);
-	this->registerBoolSetting("DoomyMiner", &this->DoomyMine, this->DoomyMine);
-	this->registerBoolSetting("MezoMiner", &this->MezoMine, this->MezoMine);
+	this->registerBoolSetting("MyMines", &this->MyMines, this->MyMines);
 
 
 
@@ -69,36 +68,20 @@ void Nuker::onTick(C_GameMode* gm) {
 				int Y = (int)gm->player->getPos()->y + y;
 				int Z = tempPos.z = (int)gm->player->getPos()->z + z;
 
-				bool inWall = (Z == -65980 && Y >= 136 && X <= -20989 && X >= -20998 || X == -20988 && Y >= 136 && Z >= -65989 && Z <= -65982);
+				bool inDoomyWall = (Z == -65980 && Y >= 136 && X <= -20989 && X >= -20998 || X == -20988 && Y >= 136 && Z >= -65989 && Z <= -65982);
 				bool inMezoWall = (X == -20999 && Y >= 115 && Z >= -66055 && Z <= -66012);
-
+				bool Server2One = (X == 6 || X == 11 && Y >= 35 && Z >= 8 && Z <= 0);
+				bool inMyMines = inDoomyWall || inMezoWall || Server2One;
 
 				if (tempPos.y > 0 && gm->player->region->getBlock(tempPos)->toLegacy()->material->isSolid && StartMining/*if StartMinig = false dont mine*/) {
-					
-					if (DoomyMine) {
-						if (inWall) {
-							
+					if (MyMines) {
+						if (inMyMines) {
 							gm->destroyBlock(&tempPos, 1);
 						}
-					} 
-					
-					if (MezoMine) {
-						if (inMezoWall) {
-							if (autotool) {
-								//findTool();
-							}
-							gm->destroyBlock(&tempPos, 1);
-						}
-					} 
-
-					if (!MezoMine && !DoomyMine) {
-						if (autotool) {
-							//findTool();
-						}
-						gm->destroyBlock(&tempPos, 1);
 					}
 					
-						
+							gm->destroyBlock(&tempPos, 1);
+	
 					
 
 				}
