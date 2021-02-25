@@ -22,11 +22,11 @@ const char* Nuker::getModuleName() {
 bool Nuker::findTool(int* PicSlot) {
 	C_PlayerInventoryProxy* supplies = g_Data.getLocalPlayer()->getSupplies();
 	C_Inventory* inv = supplies->inventory;
-	int slot = supplies->selectedHotbarSlot;
 /////////////////////////////// If you already got a pic in hand, skip findtool() and return true ///////////
 		C_ItemStack* stack = inv->getItemStack(supplies->selectedHotbarSlot);
 	if (stack->item != nullptr) {
 		if ((*stack->item)->isMiningTool()) {
+			*PicSlot = supplies->selectedHotbarSlot;
 			return true;
 		}
 	}
