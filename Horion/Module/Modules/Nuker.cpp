@@ -19,16 +19,18 @@ const char* Nuker::getModuleName() {
 }
 
 
-bool Nuker::findTool(int* PicSlot) {
+	void Nuker::findTool(int* PicSlot,bool* NoPicInHand) {
 	C_PlayerInventoryProxy* supplies = g_Data.getLocalPlayer()->getSupplies();
 	C_Inventory* inv = supplies->inventory;
 /////////////////////////////// If you already got a pic in hand, skip findtool() and return true ///////////
 		C_ItemStack* stack = inv->getItemStack(supplies->selectedHotbarSlot);
 	if (stack->item != nullptr) {
 		if ((*stack->item)->isMiningTool()) {
-			*PicSlot = supplies->selectedHotbarSlot;
-			return true;
+			*NoPicInHand = false;
+		} else {
+			*NoPicInHand = true;
 		}
+
 	}
 	/*************************************************************************************************/
 
@@ -47,11 +49,12 @@ bool Nuker::findTool(int* PicSlot) {
 
 
 void Nuker::onTick(C_GameMode* gm) {
-	int PicSlot = 0;
+	bool NoPicInHand = true;
+	int PicSlot = NULL;
 	if (!autodestroy) return;
 	// if autotool is checked go and find a tool and set StartMining to true if there is any else set it to false
 	if (autotool) {
-		 findTool(&PicSlot); 
+		 findTool(&PicSlot,&NoPicInHand); 
 	}
 	
 
@@ -74,10 +77,11 @@ void Nuker::onTick(C_GameMode* gm) {
 				if (tempPos.y > 0 && gm->player->region->getBlock(tempPos)->toLegacy()->material->isSolid) {
 					if (MyMines) {
 						if (inMyMines) {
-							gm->destroyBlock(&tempPos, 1);
 							C_PlayerInventoryProxy* supplies = g_Data.getLocalPlayer()->getSupplies();
 							C_Inventory* inv = supplies->inventory;
-							supplies->selectedHotbarSlot = PicSlot;
+
+							if (PicSlot == 9)
+							if (PicSlot != 9)gm->destroyBlock(&tempPos, 1);
 						}
 					} else {
 						gm->destroyBlock(&tempPos, 1);
