@@ -9,7 +9,7 @@ private:
 	bool autodestroy = true;
 	bool autotool = true;
 	bool MyMines = false;
-	bool findTool();
+	bool findTool(int* n);
 	//void findTool();
 	int Ticks{0};
 

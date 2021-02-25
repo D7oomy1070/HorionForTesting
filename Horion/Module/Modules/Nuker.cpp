@@ -19,7 +19,7 @@ const char* Nuker::getModuleName() {
 }
 
 
-bool Nuker::findTool() {
+bool Nuker::findTool(int* PicSlot) {
 	C_PlayerInventoryProxy* supplies = g_Data.getLocalPlayer()->getSupplies();
 	C_Inventory* inv = supplies->inventory;
 	int slot = supplies->selectedHotbarSlot;
@@ -38,7 +38,7 @@ bool Nuker::findTool() {
 		C_ItemStack* stack = inv->getItemStack(n);
 		if (stack->item != nullptr) {
 			if ((*stack->item)->isMiningTool()) {
-				supplies->selectedHotbarSlot = n;
+				*PicSlot = n;
 				return true;
 			}
 			return false;
@@ -49,11 +49,12 @@ bool Nuker::findTool() {
 
 
 void Nuker::onTick(C_GameMode* gm) {
+	int PicSlot = 0;
 	bool StartMining = true;
 	if (!autodestroy) return;
 	// if autotool is checked go and find a tool and set StartMining to true if there is any else set it to false
 	if (autotool) {
-		StartMining = findTool(); 
+		StartMining = findTool(&PicSlot); 
 	}
 	
 
@@ -70,13 +71,16 @@ void Nuker::onTick(C_GameMode* gm) {
 
 				bool inDoomyWall = (Z == -65980 && Y >= 136 && X <= -20989 && X >= -20998 || X == -20988 && Y >= 136 && Z >= -65989 && Z <= -65982);
 				bool inMezoWall = (X == -20999 && Y >= 115 && Z >= -66055 && Z <= -66012);
-				bool Server2One = (X == 6 || X == 11 && Y >= 35 && Z >= 0 && Z <= 8);
+				bool Server2One = (X == 5 || X == 11 && Y >= 35 && Z >= 0 && Z <= 8);
 				bool inMyMines = inDoomyWall || inMezoWall || Server2One;
 
 				if (tempPos.y > 0 && gm->player->region->getBlock(tempPos)->toLegacy()->material->isSolid && StartMining/*if StartMinig = false dont mine*/) {
 					if (MyMines) {
 						if (inMyMines) {
 							gm->destroyBlock(&tempPos, 1);
+							C_PlayerInventoryProxy* supplies = g_Data.getLocalPlayer()->getSupplies();
+							C_Inventory* inv = supplies->inventory;
+							supplies->selectedHotbarSlot = PicSlot;
 						}
 					} else {
 						gm->destroyBlock(&tempPos, 1);
