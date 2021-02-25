@@ -39,9 +39,7 @@ bool Nuker::findTool(int* PicSlot) {
 		if (stack->item != nullptr) {
 			if ((*stack->item)->isMiningTool()) {
 				*PicSlot = n;
-				return true;
 			}
-			return false;
 		}
 	}
    /*************************************************************************************************/
@@ -50,11 +48,10 @@ bool Nuker::findTool(int* PicSlot) {
 
 void Nuker::onTick(C_GameMode* gm) {
 	int PicSlot = 0;
-	bool StartMining = true;
 	if (!autodestroy) return;
 	// if autotool is checked go and find a tool and set StartMining to true if there is any else set it to false
 	if (autotool) {
-		StartMining = findTool(&PicSlot); 
+		 findTool(&PicSlot); 
 	}
 	
 
@@ -74,7 +71,7 @@ void Nuker::onTick(C_GameMode* gm) {
 				bool Server2One = (X == 5 || X == 11 && Y >= 35 && Z >= 0 && Z <= 8);
 				bool inMyMines = inDoomyWall || inMezoWall || Server2One;
 
-				if (tempPos.y > 0 && gm->player->region->getBlock(tempPos)->toLegacy()->material->isSolid && StartMining/*if StartMinig = false dont mine*/) {
+				if (tempPos.y > 0 && gm->player->region->getBlock(tempPos)->toLegacy()->material->isSolid) {
 					if (MyMines) {
 						if (inMyMines) {
 							gm->destroyBlock(&tempPos, 1);
