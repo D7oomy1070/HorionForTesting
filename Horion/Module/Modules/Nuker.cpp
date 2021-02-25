@@ -70,7 +70,7 @@ void Nuker::onTick(C_GameMode* gm) {
 
 				bool inDoomyWall = (Z == -65980 && Y >= 136 && X <= -20989 && X >= -20998 || X == -20988 && Y >= 136 && Z >= -65989 && Z <= -65982);
 				bool inMezoWall = (X == -20999 && Y >= 115 && Z >= -66055 && Z <= -66012);
-				bool Server2One = (X == 6 || X == 11 && Y >= 35 && Z >= 8 && Z <= 0);
+				bool Server2One = (X == 6 || X == 11 && Y >= 35 && Z >= 0 && Z <= 8);
 				bool inMyMines = inDoomyWall || inMezoWall || Server2One;
 
 				if (tempPos.y > 0 && gm->player->region->getBlock(tempPos)->toLegacy()->material->isSolid && StartMining/*if StartMinig = false dont mine*/) {
