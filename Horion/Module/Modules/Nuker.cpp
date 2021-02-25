@@ -6,9 +6,6 @@ Nuker::Nuker() : IModule(VK_NUMPAD5, Category::WORLD, "Break multiple blocks at 
 	this->registerBoolSetting("autotool", &this->autotool, this->autotool);
 	this->registerBoolSetting("auto destroy", &this->autodestroy, this->autodestroy);
 	this->registerBoolSetting("MyMines", &this->MyMines, this->MyMines);
-
-
-
 }
 
 Nuker::~Nuker() {
@@ -18,32 +15,33 @@ const char* Nuker::getModuleName() {
 	return ("Nuker");
 }
 
-
-	void Nuker::findToolNuker(int* PicSlot,bool* NoPicInHand) {
+void Nuker::findToolNuker(int* PicSlot, bool* NoPicInHand) {
 	C_PlayerInventoryProxy* supplies = g_Data.getLocalPlayer()->getSupplies();
 	C_Inventory* inv = supplies->inventory;
-/////////////////////////////// If you already got a pic in hand, skip findtool() and return true ///////////
-		C_ItemStack* stack = inv->getItemStack(supplies->selectedHotbarSlot);
+	/////////////////////////////// If you already got a pic in hand, skip findtool() and return true ///////////
+	C_ItemStack* stack = inv->getItemStack(supplies->selectedHotbarSlot);
 	if (stack->item != nullptr) {
 		if ((*stack->item)->isMiningTool()) {
 			*NoPicInHand = false;
-		} else {
-			for (int n = 0; n < 9; n++) {
-				C_ItemStack* stack = inv->getItemStack(n);
-				if (stack->item != nullptr) {
-					if ((*stack->item)->isMiningTool()) {
-						supplies->selectedHotbarSlot = n;
-						*NoPicInHand = false;
-					} else {
-						*NoPicInHand = true;
-					}
+		}
+	}
+	/*************************************************************************************************/
+
+	/////////////////////////////// If you dont hold a pic in hand check ur slots and if theres any select it and return true else return false ///////////
+	if (*NoPicInHand) {
+		for (int n = 0; n < 36; n++) {
+			C_ItemStack* stack = inv->getItemStack(n);
+			if (stack->item != nullptr) {
+				if ((*stack->item)->isMiningTool()) {
+					supplies->selectedHotbarSlot = n;
+					*NoPicInHand = false;
 				}
 			}
 		}
-
 	}
+	
+	/*************************************************************************************************/
 }
-
 
 void Nuker::onTick(C_GameMode* gm) {
 	bool NoPicInHand = true;
@@ -76,9 +74,9 @@ void Nuker::onTick(C_GameMode* gm) {
 						C_Inventory* inv = supplies->inventory;
 						if (MyMines) {
 							if (inMyMines) {
-								if (NoPicInHand == false) {
+								if (!NoPicInHand) {
 									gm->destroyBlock(&tempPos, 1);
-								} 
+								}
 							}
 						}
 					}
