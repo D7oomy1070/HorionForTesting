@@ -79,8 +79,9 @@ void Nuker::onTick(C_GameMode* gm) {
 						C_Inventory* inv = supplies->inventory;
 						if (MyMines) {
 							if (inMyMines) {
-								if (NoPicInHand)
+								if (NoPicInHand) {
 									supplies->selectedHotbarSlot = PicSlot;
+								}
 								else if (!NoPicInHand) {
 									gm->destroyBlock(&tempPos, 1);
 								}
