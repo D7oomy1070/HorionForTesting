@@ -1,0 +1,1137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\BindCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\BruhCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\CommandBlockExploitCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\ConfigCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\CoordsCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\DamageCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\DupeCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\EjectCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\EnchantCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\ExecuteCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\FriendListCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\GameModeCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\GiveCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\HelpCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\HideCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\ICommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\ModulesCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\NameSpoofCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\NbtCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\PanicCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\PlayerTeleportCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\RelativeTeleportCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\SayCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\ScriptCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\ServerCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\setoffhandCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\SetprefixCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\SpammerCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\TeleportCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\TestCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\ToggleCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\UnbindCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\CommandMgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Config\AccountInformation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Config\ConfigManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\FriendList\FriendList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Menu\ClickGui.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Menu\TabGui.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Aimbot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\AirJump.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\AirStuck.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\AirSwim.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\AntiBot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\AntiVoid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\AutoArmor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\AutoClicker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\AutoGapple.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\AutoSneak.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\AutoSprint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\AutoTotem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Bhop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Blink.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\BowAimbot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\ChestAura.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\ChestESP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\ChestStealer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\ClickGuiMod.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Crasher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Criticals.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\CrystalAura.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\CubeGlide.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Derp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\EditionFaker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\ESP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\FastEast.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\FastLadder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Fly.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Freecam.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Fucker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\FullBright.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Glide.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Godmode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\HighJump.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Hitbox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\HudModule.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\ExtendedBlockReach.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\InfiniteReach.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\InstaBreak.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\InventoryCleaner.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\InventoryMove.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\JavascriptModule.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Jesus.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Jetpack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Killaura.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\MidClick.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Module.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\NameTags.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Nbt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\NightMode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\NoFall.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\NoFriends.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\NoPacket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\NoPaintingCrash.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\NoSlowDown.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\NoSwing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\NoWeb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Nuker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\PacketLogger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Phase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\RainbowSky.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Reach.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Scaffold.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Spammer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Speed.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\StackableItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Step.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Teams.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Teleport.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\TestModule.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Timer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Tower.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Tracer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\TriggerBot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Velocity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Xray.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Zoom.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\ModuleManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Scripting\Functions\CommandManagerFunctions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Scripting\Functions\EntityFunctions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Scripting\Functions\GameFunctions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Scripting\Functions\GlobalFunctions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Scripting\Functions\HorionFunctions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Scripting\Functions\LocalPlayerFunctions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Scripting\Functions\ModuleManagerFunctions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Scripting\Functions\Vector3Functions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Scripting\JsScriptModule.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Scripting\ScriptInstance.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Scripting\ScriptManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\DrawUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\GuiUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\ImmediateGui.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Loader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Memory\GameData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Memory\Hooks.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Memory\SlimMem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Utils\Logger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Utils\SkinUtil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Utils\Target.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Utils\TextFormat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Utils\Utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\SDK\TextHolder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\SDK\CChestBlockActor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\SDK\Tag.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\SDK\CBlockLegacy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\SDK\CItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\SDK\CInventory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\SDK\CInventoryTransaction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\SDK\CEntity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\SDK\CComplexInventoryTransaction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\SDK\CPacket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\SDK\CMinecraftUIRenderContext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\SDK\CClientInstance.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\SDK\CMoveInputHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Freelook.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\SDK\CCamera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\NoHurtcam.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\AntiImmobile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\path\JoePathFinder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\path\JoePath.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\path\JoeSegment.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\path\JoeMovementController.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\path\goals\JoeGoal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\path\goals\JoeGoalXYZ.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\path\goals\JoeGoalXZ.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\path\goals\JoeGoalY.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\FollowPathModule.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\PathCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\path\JoeConstants.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Scripting\Functions\LevelFunctions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Scripting\Functions\DrawFunctions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Twerk.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\BindCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\BruhCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\CommandBlockExploitCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\ConfigCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\CoordsCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\DamageCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\DupeCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\EjectCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\EnchantCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\ExecuteCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\FriendListCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\GameModeCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\GiveCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\HelpCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\HideCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\ICommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\ModulesCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\NameSpoofCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\NbtCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\PanicCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\PlayerTeleportCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\RelativeTeleportCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\SayCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\ScriptCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\ServerCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\setoffhandCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\SetprefixCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\SpammerCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\TeleportCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\TestCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\ToggleCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\UnbindCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\CommandMgr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Config\AccountInformation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Config\ConfigManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\FriendList\FriendList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Menu\ClickGui.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Menu\TabGui.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Aimbot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\AirJump.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\AirStuck.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\AirSwim.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\AntiBot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\AntiVoid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\AutoArmor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\AutoClicker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\AutoGapple.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\AutoSneak.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\AutoSprint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\AutoTotem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Bhop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Blink.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\BowAimbot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\ChestAura.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\ChestESP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\ChestStealer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\ClickGuiMod.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Crasher.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Criticals.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\CrystalAura.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\CubeGlide.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Derp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\EditionFaker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\ESP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\FastEat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\FastLadder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Fly.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Freecam.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Fucker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\FullBright.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Glide.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Godmode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\HighJump.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Hitbox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\HudModule.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\ExtendedBlockReach.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\InfiniteReach.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\InstaBreak.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\InventoryCleaner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\InventoryMove.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\JavascriptModule.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Jesus.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Jetpack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Killaura.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\MidClick.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Module.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\NameTags.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Nbt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\NightMode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\NoFall.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\NoFriends.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\NoPacket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\NoPaintingCrash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\NoSlowDown.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\NoSwing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\NoWeb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Nuker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\PacketLogger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Phase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\RainbowSky.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Reach.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Scaffold.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Spammer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Speed.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\StackableItem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Step.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Teams.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Teleport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\TestModule.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Timer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Tower.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Tracer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\TriggerBot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Velocity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Xray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Zoom.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\ModuleManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Scripting\Functions\CommandManagerFunctions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Scripting\Functions\EntityFunctions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Scripting\Functions\GameFunctions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Scripting\Functions\GlobalFunctions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Scripting\Functions\HorionFunctions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Scripting\Functions\LocalPlayerFunctions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Scripting\Functions\ModuleManagerFunctions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Scripting\Functions\Vector3Functions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Scripting\JsScriptModule.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Scripting\ScriptInstance.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Scripting\ScriptManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\DrawUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\GuiUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\ImmediateGui.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Loader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\include\chakra\ChakraCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\include\chakra\ChakraCommonWindows.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\include\chakra\ChakraCore.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\include\chakra\ChakraCoreWindows.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\include\chakra\ChakraDebug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\include\atlrx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\include\d3dx11.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\include\d3dx11async.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\include\d3dx11core.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\include\d3dx11effect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\include\RegExp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\include\StringProcess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\include\WinHttpClient.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Memory\GameData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Memory\Hooks.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Memory\MinHook.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Memory\SlimMem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\SDK\CBlockLegacy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\SDK\CChestBlockActor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\SDK\CClientInstance.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\SDK\CClientInstanceScreenModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\SDK\CComplexInventoryTransaction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\SDK\CEntity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\SDK\CEntityList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\SDK\CGameMode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\SDK\CGameSettingsInput.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\SDK\CHIDController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\SDK\CInventory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\SDK\CInventoryTransaction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\SDK\CItem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\SDK\CLoopbackPacketSender.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\SDK\CMinecraftUIRenderContext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\SDK\CMoveInputHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\SDK\CPacket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\SDK\CRakNetInstance.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\SDK\CUIScene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\SDK\MojangsonToken.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\SDK\Tag.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\SDK\TextHolder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Utils\ChakraHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Utils\DllHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Utils\HMath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Utils\Json.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Utils\Logger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Utils\SkinUtil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Utils\Target.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Utils\TextFormat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Utils\Utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Utils\xorstr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Utils\keys.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\SDK\CImageBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Freelook.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\SDK\CCamera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\NoHurtcam.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\AntiImmobile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\path\JoePathFinder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\path\JoePath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\path\JoeSegment.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\path\JoeMovementController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\path\goals\JoeGoal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\path\goals\JoeGoalXYZ.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\path\goals\JoeGoalXZ.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\path\JoeConstants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\path\goals\JoeGoalY.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\FollowPathModule.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\PathCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Scripting\Functions\LevelFunctions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Scripting\Functions\DrawFunctions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Twerk.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{591DA108-C9B7-3889-8B83-4B4418C338FF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{0C271A92-F54D-3FA3-9836-0898FAAA7530}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

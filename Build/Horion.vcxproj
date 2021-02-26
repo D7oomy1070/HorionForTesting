@@ -1,0 +1,709 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{44585DF2-47B9-36CF-94F5-5E05D8D39494}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>Horion</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Horion.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Horion</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Horion.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Horion</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Horion.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Horion</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Horion.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Horion</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\.;C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\include;C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\include\glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;WIN32_LEAN_AND_MEAN;NOMINMAX;CMAKE_INTDIR="Debug";Horion_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;WIN32_LEAN_AND_MEAN;NOMINMAX;CMAKE_INTDIR=\"Debug\";Horion_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\.;C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\include;C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\include\glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\.;C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\include;C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\include\glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/MC/source/repos/D7oomy1070/HorionForTesting/minhook;C:/Users/MC/source/repos/D7oomy1070/HorionForTesting/minhook/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/MC/source/repos/D7oomy1070/HorionForTesting/Build/Debug/Horion.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/MC/source/repos/D7oomy1070/HorionForTesting/Build/Debug/Horion.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\.;C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\include;C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\include\glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WIN32_LEAN_AND_MEAN;NOMINMAX;CMAKE_INTDIR="Release";Horion_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WIN32_LEAN_AND_MEAN;NOMINMAX;CMAKE_INTDIR=\"Release\";Horion_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\.;C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\include;C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\include\glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\.;C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\include;C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\include\glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/MC/source/repos/D7oomy1070/HorionForTesting/minhook;C:/Users/MC/source/repos/D7oomy1070/HorionForTesting/minhook/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/MC/source/repos/D7oomy1070/HorionForTesting/Build/Release/Horion.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/MC/source/repos/D7oomy1070/HorionForTesting/Build/Release/Horion.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\.;C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\include;C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\include\glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WIN32_LEAN_AND_MEAN;NOMINMAX;CMAKE_INTDIR="MinSizeRel";Horion_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WIN32_LEAN_AND_MEAN;NOMINMAX;CMAKE_INTDIR=\"MinSizeRel\";Horion_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\.;C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\include;C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\include\glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\.;C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\include;C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\include\glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/MC/source/repos/D7oomy1070/HorionForTesting/minhook;C:/Users/MC/source/repos/D7oomy1070/HorionForTesting/minhook/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/MC/source/repos/D7oomy1070/HorionForTesting/Build/MinSizeRel/Horion.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/MC/source/repos/D7oomy1070/HorionForTesting/Build/MinSizeRel/Horion.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\.;C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\include;C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\include\glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WIN32_LEAN_AND_MEAN;NOMINMAX;CMAKE_INTDIR="RelWithDebInfo";Horion_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WIN32_LEAN_AND_MEAN;NOMINMAX;CMAKE_INTDIR=\"RelWithDebInfo\";Horion_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\.;C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\include;C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\include\glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\.;C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\include;C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\include\glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/MC/source/repos/D7oomy1070/HorionForTesting/minhook;C:/Users/MC/source/repos/D7oomy1070/HorionForTesting/minhook/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/MC/source/repos/D7oomy1070/HorionForTesting/Build/RelWithDebInfo/Horion.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/MC/source/repos/D7oomy1070/HorionForTesting/Build/RelWithDebInfo/Horion.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/MC/source/repos/D7oomy1070/HorionForTesting/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/MC/source/repos/D7oomy1070/HorionForTesting -BC:/Users/MC/source/repos/D7oomy1070/HorionForTesting/Build --check-stamp-file C:/Users/MC/source/repos/D7oomy1070/HorionForTesting/Build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.18\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Build\CMakeFiles\3.18.3\CMakeCCompiler.cmake;C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Build\CMakeFiles\3.18.3\CMakeCXXCompiler.cmake;C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Build\CMakeFiles\3.18.3\CMakeRCCompiler.cmake;C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Build\CMakeFiles\3.18.3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/MC/source/repos/D7oomy1070/HorionForTesting/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/MC/source/repos/D7oomy1070/HorionForTesting -BC:/Users/MC/source/repos/D7oomy1070/HorionForTesting/Build --check-stamp-file C:/Users/MC/source/repos/D7oomy1070/HorionForTesting/Build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.18\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Build\CMakeFiles\3.18.3\CMakeCCompiler.cmake;C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Build\CMakeFiles\3.18.3\CMakeCXXCompiler.cmake;C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Build\CMakeFiles\3.18.3\CMakeRCCompiler.cmake;C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Build\CMakeFiles\3.18.3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/MC/source/repos/D7oomy1070/HorionForTesting/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/MC/source/repos/D7oomy1070/HorionForTesting -BC:/Users/MC/source/repos/D7oomy1070/HorionForTesting/Build --check-stamp-file C:/Users/MC/source/repos/D7oomy1070/HorionForTesting/Build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.18\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Build\CMakeFiles\3.18.3\CMakeCCompiler.cmake;C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Build\CMakeFiles\3.18.3\CMakeCXXCompiler.cmake;C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Build\CMakeFiles\3.18.3\CMakeRCCompiler.cmake;C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Build\CMakeFiles\3.18.3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/MC/source/repos/D7oomy1070/HorionForTesting/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/MC/source/repos/D7oomy1070/HorionForTesting -BC:/Users/MC/source/repos/D7oomy1070/HorionForTesting/Build --check-stamp-file C:/Users/MC/source/repos/D7oomy1070/HorionForTesting/Build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.18\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Build\CMakeFiles\3.18.3\CMakeCCompiler.cmake;C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Build\CMakeFiles\3.18.3\CMakeCXXCompiler.cmake;C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Build\CMakeFiles\3.18.3\CMakeRCCompiler.cmake;C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Build\CMakeFiles\3.18.3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\BindCommand.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\BindCommand.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\BruhCommand.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\BruhCommand.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\CommandBlockExploitCommand.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\CommandBlockExploitCommand.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\ConfigCommand.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\ConfigCommand.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\CoordsCommand.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\CoordsCommand.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\DamageCommand.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\DamageCommand.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\DupeCommand.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\DupeCommand.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\EjectCommand.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\EjectCommand.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\EnchantCommand.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\EnchantCommand.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\ExecuteCommand.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\ExecuteCommand.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\FriendListCommand.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\FriendListCommand.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\GameModeCommand.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\GameModeCommand.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\GiveCommand.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\GiveCommand.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\HelpCommand.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\HelpCommand.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\HideCommand.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\HideCommand.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\ICommand.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\ICommand.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\ModulesCommand.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\ModulesCommand.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\NameSpoofCommand.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\NameSpoofCommand.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\NbtCommand.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\NbtCommand.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\PanicCommand.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\PanicCommand.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\PlayerTeleportCommand.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\PlayerTeleportCommand.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\RelativeTeleportCommand.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\RelativeTeleportCommand.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\SayCommand.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\SayCommand.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\ScriptCommand.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\ScriptCommand.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\ServerCommand.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\ServerCommand.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\setoffhandCommand.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\setoffhandCommand.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\SetprefixCommand.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\SetprefixCommand.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\SpammerCommand.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\SpammerCommand.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\TeleportCommand.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\TeleportCommand.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\TestCommand.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\TestCommand.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\ToggleCommand.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\ToggleCommand.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\UnbindCommand.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\UnbindCommand.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\CommandMgr.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\CommandMgr.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Config\AccountInformation.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Config\AccountInformation.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Config\ConfigManager.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Config\ConfigManager.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\FriendList\FriendList.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\FriendList\FriendList.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Menu\ClickGui.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Menu\ClickGui.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Menu\TabGui.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Menu\TabGui.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Aimbot.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Aimbot.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\AirJump.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\AirJump.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\AirStuck.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\AirStuck.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\AirSwim.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\AirSwim.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\AntiBot.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\AntiBot.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\AntiVoid.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\AntiVoid.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\AutoArmor.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\AutoArmor.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\AutoClicker.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\AutoClicker.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\AutoGapple.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\AutoGapple.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\AutoSneak.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\AutoSneak.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\AutoSprint.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\AutoSprint.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\AutoTotem.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\AutoTotem.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Bhop.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Bhop.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Blink.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Blink.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\BowAimbot.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\BowAimbot.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\ChestAura.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\ChestAura.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\ChestESP.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\ChestESP.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\ChestStealer.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\ChestStealer.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\ClickGuiMod.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\ClickGuiMod.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Crasher.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Crasher.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Criticals.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Criticals.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\CrystalAura.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\CrystalAura.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\CubeGlide.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\CubeGlide.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Derp.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Derp.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\EditionFaker.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\EditionFaker.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\ESP.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\ESP.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\FastEast.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\FastEat.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\FastLadder.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\FastLadder.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Fly.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Fly.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Freecam.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Freecam.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Fucker.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Fucker.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\FullBright.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\FullBright.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Glide.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Glide.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Godmode.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Godmode.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\HighJump.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\HighJump.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Hitbox.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Hitbox.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\HudModule.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\HudModule.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\ExtendedBlockReach.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\ExtendedBlockReach.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\InfiniteReach.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\InfiniteReach.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\InstaBreak.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\InstaBreak.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\InventoryCleaner.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\InventoryCleaner.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\InventoryMove.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\InventoryMove.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\JavascriptModule.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\JavascriptModule.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Jesus.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Jesus.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Jetpack.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Jetpack.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Killaura.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Killaura.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\MidClick.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\MidClick.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Module.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Module.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\NameTags.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\NameTags.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Nbt.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Nbt.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\NightMode.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\NightMode.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\NoFall.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\NoFall.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\NoFriends.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\NoFriends.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\NoPacket.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\NoPacket.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\NoPaintingCrash.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\NoPaintingCrash.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\NoSlowDown.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\NoSlowDown.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\NoSwing.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\NoSwing.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\NoWeb.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\NoWeb.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Nuker.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Nuker.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\PacketLogger.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\PacketLogger.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Phase.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Phase.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\RainbowSky.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\RainbowSky.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Reach.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Reach.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Scaffold.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Scaffold.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Spammer.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Spammer.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Speed.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Speed.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\StackableItem.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\StackableItem.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Step.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Step.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Teams.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Teams.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Teleport.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Teleport.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\TestModule.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\TestModule.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Timer.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Timer.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Tower.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Tower.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Tracer.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Tracer.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\TriggerBot.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\TriggerBot.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Velocity.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Velocity.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Xray.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Xray.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Zoom.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Zoom.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\ModuleManager.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\ModuleManager.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Scripting\Functions\CommandManagerFunctions.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Scripting\Functions\CommandManagerFunctions.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Scripting\Functions\EntityFunctions.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Scripting\Functions\EntityFunctions.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Scripting\Functions\GameFunctions.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Scripting\Functions\GameFunctions.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Scripting\Functions\GlobalFunctions.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Scripting\Functions\GlobalFunctions.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Scripting\Functions\HorionFunctions.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Scripting\Functions\HorionFunctions.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Scripting\Functions\LocalPlayerFunctions.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Scripting\Functions\LocalPlayerFunctions.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Scripting\Functions\ModuleManagerFunctions.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Scripting\Functions\ModuleManagerFunctions.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Scripting\Functions\Vector3Functions.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Scripting\Functions\Vector3Functions.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Scripting\JsScriptModule.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Scripting\JsScriptModule.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Scripting\ScriptInstance.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Scripting\ScriptInstance.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Scripting\ScriptManager.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Scripting\ScriptManager.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\DrawUtils.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\DrawUtils.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\GuiUtils.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\GuiUtils.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\ImmediateGui.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\ImmediateGui.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Loader.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Loader.h" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\include\chakra\ChakraCommon.h" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\include\chakra\ChakraCommonWindows.h" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\include\chakra\ChakraCore.h" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\include\chakra\ChakraCoreWindows.h" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\include\chakra\ChakraDebug.h" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\include\atlrx.h" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\include\d3dx11.h" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\include\d3dx11async.h" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\include\d3dx11core.h" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\include\d3dx11effect.h" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\include\RegExp.h" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\include\StringProcess.h" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\include\WinHttpClient.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Memory\GameData.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Memory\GameData.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Memory\Hooks.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Memory\Hooks.h" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Memory\MinHook.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Memory\SlimMem.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Memory\SlimMem.h" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\SDK\CBlockLegacy.h" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\SDK\CChestBlockActor.h" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\SDK\CClientInstance.h" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\SDK\CClientInstanceScreenModel.h" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\SDK\CComplexInventoryTransaction.h" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\SDK\CEntity.h" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\SDK\CEntityList.h" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\SDK\CGameMode.h" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\SDK\CGameSettingsInput.h" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\SDK\CHIDController.h" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\SDK\CInventory.h" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\SDK\CInventoryTransaction.h" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\SDK\CItem.h" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\SDK\CLoopbackPacketSender.h" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\SDK\CMinecraftUIRenderContext.h" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\SDK\CMoveInputHandler.h" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\SDK\CPacket.h" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\SDK\CRakNetInstance.h" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\SDK\CUIScene.h" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\SDK\MojangsonToken.h" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\SDK\Tag.h" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\SDK\TextHolder.h" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Utils\ChakraHelper.h" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Utils\DllHelper.h" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Utils\HMath.h" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Utils\Json.hpp" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Utils\Logger.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Utils\Logger.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Utils\SkinUtil.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Utils\SkinUtil.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Utils\Target.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Utils\Target.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Utils\TextFormat.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Utils\TextFormat.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Utils\Utils.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Utils\Utils.h" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Utils\xorstr.h" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\resource.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\SDK\TextHolder.cpp" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\SDK\CChestBlockActor.cpp" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\SDK\Tag.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Utils\keys.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\SDK\CBlockLegacy.cpp" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\SDK\CItem.cpp" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\SDK\CInventory.cpp" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\SDK\CInventoryTransaction.cpp" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\SDK\CEntity.cpp" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\SDK\CComplexInventoryTransaction.cpp" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\SDK\CPacket.cpp" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\SDK\CMinecraftUIRenderContext.cpp" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\SDK\CClientInstance.cpp" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\SDK\CMoveInputHandler.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\SDK\CImageBuffer.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Freelook.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Freelook.h" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\SDK\CCamera.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\SDK\CCamera.cpp" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\NoHurtcam.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\NoHurtcam.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\AntiImmobile.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\AntiImmobile.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\path\JoePathFinder.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\path\JoePathFinder.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\path\JoePath.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\path\JoePath.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\path\JoeSegment.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\path\JoeSegment.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\path\JoeMovementController.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\path\JoeMovementController.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\path\goals\JoeGoal.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\path\goals\JoeGoal.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\path\goals\JoeGoalXYZ.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\path\goals\JoeGoalXYZ.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\path\goals\JoeGoalXZ.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\path\goals\JoeGoalXZ.h" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\path\JoeConstants.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\path\goals\JoeGoalY.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\path\goals\JoeGoalY.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\FollowPathModule.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\FollowPathModule.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\PathCommand.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Command\Commands\PathCommand.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\path\JoeConstants.cpp" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Scripting\Functions\LevelFunctions.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Scripting\Functions\LevelFunctions.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Scripting\Functions\DrawFunctions.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Scripting\Functions\DrawFunctions.h" />
+    <ClCompile Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Twerk.cpp" />
+    <ClInclude Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Horion\Module\Modules\Twerk.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\MC\source\repos\D7oomy1070\HorionForTesting\Build\ZERO_CHECK.vcxproj">
+      <Project>{3CB902C5-D6EB-3B0A-A99F-DF7DDA3206DB}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
